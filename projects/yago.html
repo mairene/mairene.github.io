@@ -19,30 +19,33 @@
     <![endif]-->
   </head>
   <body>
+    <nav class="navbar navbar-default navbar-fixed-top">
+      <div class="container">
+        <p>
+          <ul class="nav nav-pills">
+            <li role="presentation" class="active"><a href="../index.html">Home</a></li>
+            <li role="presentation"><a href="../about/index.html">About</a></li>
+            <li role="presentation" class="dropdown">
+              <a class="dropdown-toggle" data-toggle="dropdown" href="index.html" role="button" aria-haspopup="true" aria-expanded="false">
+                Projects <span class="caret"></span>
+              </a>
+              <ul class="dropdown-menu">
+                <li><a href="../projects/yago.html">Yago</a></li>
+                <li><a href="../projects/parkit.html">ParkIt</a></li>
+                <li><a href="../projects/parkit.html">ShortList</a></li>
+              </ul>
+            </li>
+            <li role="presentation"><a href="../resume/resume.pdf">Resume</a></li>
+          </ul>
+        </p>
+      </div>
+    </nav>
     <div class="container">
-      <p>
-        <ul class="nav nav-pills">
-          <li role="presentation" class="active"><a href="../index.html">Home</a></li>
-          <li role="presentation"><a href="../about/index.html">About</a></li>
-          <li role="presentation" class="dropdown">
-            <a class="dropdown-toggle" data-toggle="dropdown" href="index.html" role="button" aria-haspopup="true" aria-expanded="false">
-              Projects <span class="caret"></span>
-            </a>
-            <ul class="dropdown-menu">
-              <li><a href="../projects/yago.html">Yago</a></li>
-              <li><a href="../projects/parkit.html">ParkIt</a></li>
-              <li><a href="../projects/parkit.html">ShortList</a></li>
-            </ul>
-          </li>
-          <li role="presentation"><a href="../resume/resume.pdf">Resume</a></li>
-        </ul>
-      </p>
-    </div>
-    <div class="container">
+      <div class="container">
       As an alternative to static selfie photos, Yago is a JavaScript-based app that allows users to connects to a Parrot AR.Drone 2.0, control it via the keyboard, and record videos into a local folder. It uses sockets.io, an express.js framework, homebrew, and jQuery to communicate with and retrieve information from the drone such as GPS navigation data and video-feed images. Built in one week. Team members: Rafa Auriermo, Dillon Downey, Dan Klos, Irene Ma, Grace Yasakawa
 
       <p>More information and code can be found here: <a href="https://github.com/rauriemo/yago_exp"><span class="label label-default">Github repo</span></a></p>
-
+      </div>
       <div class="container">
         <div class="embed-responsive embed-responsive-4by3">
           <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/RRFNcxfrcu4" allowfullscreen></iframe>
